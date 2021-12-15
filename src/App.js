@@ -25,6 +25,8 @@ function App() {
       <UserCartProvider>
         <Navbar bg="primary" variant="dark" className ="nav-grid">
           <Container >
+          <Navbar.Toggle aria-controls="basic-navbar-nav" />
+              <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="me-auto">
                      <Nav.Link href="Admin" style={{color:'white'}}>Admin</Nav.Link>
                      <Nav.Link href="Store" style={{color:'white'}}>Store</Nav.Link>
@@ -38,6 +40,7 @@ function App() {
                 <Nav.Link href="/" onClick={logout} style={{color:'white'}}>Logout</Nav.Link>
 
               </Nav>
+              </Navbar.Collapse>
             </Container>
         </Navbar>
   
