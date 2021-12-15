@@ -23,7 +23,7 @@ function App() {
   return (
       <ProductProvider>
       <UserCartProvider>
-        <Navbar bg="primary" variant="dark" className ="nav-grid">
+        <Navbar bg="primary" variant="dark"  expand="lg">
           <Container >
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
               <Navbar.Collapse id="basic-navbar-nav">
