@@ -137,7 +137,7 @@ const Cart = () => {
        
       return(
           
-            <Container fluid>
+            <Container>
             <Row>
                 
                 <Col>
