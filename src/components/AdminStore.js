@@ -59,7 +59,6 @@ const AdminStore = () => {
                     <Table striped bordered hover>
                         <thead>
                             <tr>
-                                <th>id</th>
                                 <th>Product Name</th>
                                 <th>Product Description</th>
                                 <th>Unit Price</th>
@@ -70,7 +69,6 @@ const AdminStore = () => {
                         <tbody>
                         {products.data.map((product) => (
                             <AdminRow
-                                    id = {product.id}
                                     title = {product.title}
                                     description = {product.description}
                                     price = {product.price}

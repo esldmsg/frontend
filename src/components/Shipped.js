@@ -81,8 +81,8 @@ const Shipped = () => {
                             
                             <tr>
                                 <th>Image</th>
-                                <th>Product Name</th>
-                                <th>Product Description</th>
+                                <th>Name</th>
+                                <th>Description</th>
                                 <th>Amount Paid</th>    
                             </tr>
                         </thead>
