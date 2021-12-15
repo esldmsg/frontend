@@ -33,7 +33,7 @@ const Register = () => {
                 password:password
             }),
         };
-        const response = await fetch (`http://localhost:8000/signUp/${username}/${email}/${password}`, requestOptions);
+        const response = await fetch (`https://testingproweb.herokuapp.com/signUp/${username}/${email}/${password}`, requestOptions);
         const data = await response.json()
         console.log(data)
         if(!response.ok){
