@@ -12,7 +12,7 @@ const Store = () => {
     const [products, setProducts]  =  useContext(ProductContext)
 
     useEffect( () => {
-        fetch('https://testingproweb.herokuapp.com/allitems/?skip=0&limit=100')
+        fetch('https://testingproweb.herokuapp.com/allitems/')
            .then(resp => {
                console.log(resp)
                return resp.json();
