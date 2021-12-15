@@ -178,10 +178,6 @@ const Cart = () => {
                     </Table>
                 </Col>
             </Row>
-            <div>
-            
-                <h4>TOTAL: {totalItem} </h4> 
-            </div>
             </Container>
            
 
