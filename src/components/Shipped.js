@@ -90,7 +90,7 @@ const Shipped = () => {
                         {ships.map((ship, index) => (
                                <tr>
                                    
-                                   <td ><img style={{height:"100px",width:"100px"}} src={ship.url}/></td>
+                                   <td ><img style={{height:"50px",width:"50px"}} src={ship.url}/></td>
                                    <td>{ship.title}</td>
                                    <td>{ship.description}</td>
                                    <td>{ship.rate}</td>

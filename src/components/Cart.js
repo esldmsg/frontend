@@ -159,7 +159,7 @@ const Cart = () => {
                         {carts.map((cart, index) => (
                                <tr>
                                    
-                                   <td ><img style={{height:"100px",width:"100px"}} src={cart.url}/></td>
+                                   <td ><img style={{height:"50px",width:"50px"}} src={cart.url}/></td>
                                    <td>{cart.title}</td>
                                    <td>{cart.description}</td>
                                    <td>{cart.price}</td>
