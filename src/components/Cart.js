@@ -136,8 +136,8 @@ const Cart = () => {
         }
        
       return(
-          <div>
-            <Container>
+          
+            <Container fluid>
             <Row>
                 
                 <Col>
@@ -183,7 +183,7 @@ const Cart = () => {
                 <h4>TOTAL: {totalItem} </h4> 
             </div>
             </Container>
-            </div>
+           
 
          
       );
