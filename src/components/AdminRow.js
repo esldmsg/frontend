@@ -2,7 +2,7 @@ import React from 'react';
 
 
 
-function AdminRow ({title, description, price,  handleDelete}) {
+function AdminRow ({ id, title, description, price,  handleDelete}) {
 		return(
 			<tr>
 				<td>{title}</td>

@@ -69,6 +69,7 @@ const AdminStore = () => {
                         <tbody>
                         {products.data.map((product) => (
                             <AdminRow
+                                    id = {product.id}
                                     title = {product.title}
                                     description = {product.description}
                                     price = {product.price}
