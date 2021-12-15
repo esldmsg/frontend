@@ -143,7 +143,7 @@ const Cart = () => {
                 <Col>
                 <ErrorMessage message={errorMessage}/>
                 <SuccessMessage message={successMessage}/>
-                    <Table striped bordered hover>
+                    <Table striped bordered hover  size="sm">
                     
                         <thead>
                             
