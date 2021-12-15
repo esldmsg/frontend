@@ -149,9 +149,9 @@ const Cart = () => {
                             
                             <tr>
                                 <th>Image</th>
-                                <th>Product Name</th>
-                                <th>Product Description</th>
-                                <th>Unit Price</th>
+                                <th>Name</th>
+                                <th>Description</th>
+                                <th>Price</th>
                                 <th>Rate</th>    
                             </tr>
                         </thead>
