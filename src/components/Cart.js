@@ -150,7 +150,7 @@ const Cart = () => {
                             <tr>
                                 <th>Image</th>
                                 <th>Name</th>
-                                <th>Description</th>
+                                <th>Details</th>
                                 <th>Price</th>
                                 <th>Rate</th>    
                             </tr>

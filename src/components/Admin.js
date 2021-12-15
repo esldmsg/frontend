@@ -95,8 +95,8 @@ const Admin = () => {
                             value={productInfo.title} onChange = {updateForm} placeholder="Product title" />
                     </Form.Group>
                     <Form.Group controlId="Description">
-                        <Form.Label>Description</Form.Label>
-                        <Form.Control type="text" name="description" value={productInfo.description} onChange = {updateForm}  placeholder="Description" />
+                        <Form.Label>Details</Form.Label>
+                        <Form.Control type="text" name="description" value={productInfo.description} onChange = {updateForm}  placeholder="Details" />
                     </Form.Group>
                     <Form.Group controlId="UnitPrice">
                         <Form.Label>Price</Form.Label>

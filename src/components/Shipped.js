@@ -82,7 +82,7 @@ const Shipped = () => {
                             <tr>
                                 <th>Image</th>
                                 <th>Name</th>
-                                <th>Description</th>
+                                <th>Details</th>
                                 <th>Amount Paid</th>    
                             </tr>
                         </thead>

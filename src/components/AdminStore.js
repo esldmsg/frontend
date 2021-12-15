@@ -60,7 +60,7 @@ const AdminStore = () => {
                         <thead>
                             <tr>
                                 <th>Product Name</th>
-                                <th>Product Description</th>
+                                <th>Product Details</th>
                                 <th>Unit Price</th>
                                 
                                 
