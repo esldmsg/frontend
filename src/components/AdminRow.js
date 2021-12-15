@@ -5,7 +5,6 @@ import React from 'react';
 function AdminRow ({title, description, price,  handleDelete}) {
 		return(
 			<tr>
-				<td>{id}</td>
 				<td>{title}</td>
 				<td>{description}</td>
 				<td>{price}</td>
