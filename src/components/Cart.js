@@ -165,8 +165,8 @@ const Cart = () => {
                                    <td>
                                    <button onClick={() => handleQuantityIncrease(index, cart.price, cart.rate)} style={{backgroundColor:"blue"}} className = "btn btn-outline-info btn-sm mr-5">+</button>
                                    <button onClick={() => handleQuantityDecrease(index, cart.price, cart.rate)}  style={{backgroundColor:"blue"}} className = "btn btn-outline-info btn-sm mr-2">-</button>
-                                   <button onClick={() => handleDelete(cart.id)} className = "btn btn-outline-danger btn-sm mr-2">Delete</button> 
                                    <button  key={index} onClick={() => pay(cart.id,cart.title,cart.price, cart.rate, cart.description, cart.url)}  style={{backgroundColor:"green"}}className = "btn btn-outline-info btn-sm mr-2"> Pay </button>
+                                   <button onClick={() => handleDelete(cart.id)} className = "btn btn-outline-danger btn-sm mr-2">Delete</button> 
                                   </td>
 
                                </tr>
