@@ -160,8 +160,8 @@ const Cart = () => {
                                    
                                    <td ><img style={{height:"50px",width:"50px"}} src={cart.url}/></td>
                                    <td>{cart.title}</td>
-                                   <td>{cart.price}</td>
-                                   <td>{cart.rate}</td>
+                                   <td>₦{cart.price}</td>
+                                   <td>₦{cart.rate}</td>
                                    <td>
                                    <button onClick={() => handleQuantityIncrease(index, cart.price, cart.rate)} style={{backgroundColor:"blue"}} className = "btn btn-outline-info btn-sm mr-5">+</button>
                                    <button onClick={() => handleQuantityDecrease(index, cart.price, cart.rate)}  style={{backgroundColor:"blue"}} className = "btn btn-outline-info btn-sm mr-2">-</button>
