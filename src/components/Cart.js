@@ -150,7 +150,6 @@ const Cart = () => {
                             <tr>
                                 <th>Image</th>
                                 <th>Name</th>
-                                <th>Details</th>
                                 <th>Price</th>
                                 <th>Rate</th>    
                             </tr>
@@ -161,7 +160,6 @@ const Cart = () => {
                                    
                                    <td ><img style={{height:"50px",width:"50px"}} src={cart.url}/></td>
                                    <td>{cart.title}</td>
-                                   <td>{cart.description}</td>
                                    <td>{cart.price}</td>
                                    <td>{cart.rate}</td>
                                    <td>
