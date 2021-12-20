@@ -35,7 +35,7 @@ const Cart = () => {
                 Authorization: "Bearer " + token,
             },
         };
-            const response = await fetch('https://testingproweb.herokuapp.com/items/?skip=0&limit=100', requestOptions);
+            const response = await fetch('https://ecodynamicsbackend.herokuapp.com/items/?skip=0&limit=100', requestOptions);
             if(!response.ok){
                 setErrorMessage("Session time out please re-login or Cart is empty")
             }else{
@@ -53,7 +53,7 @@ const Cart = () => {
                 Authorization: "Bearer " + token,
             },
         };
-        const response = await fetch ("https://testingproweb.herokuapp.com/delete/" + id, requestOptions);
+        const response = await fetch ("https://ecodynamicsbackend.herokuapp.com/delete/" + id, requestOptions);
         console.log(response)
         if(!response.ok){
             setErrorMessage("Something Went Wrong Try Again")
@@ -116,7 +116,7 @@ const Cart = () => {
                  }),
              
             };
-            const response = await fetch ("https://testingproweb.herokuapp.com/user/pay/item/{title}/{price}/{rate}/{description}/{url}", requestOptions);
+            const response = await fetch ("https://ecodynamicsbackend.herokuapp.com/user/pay/item/{title}/{price}/{rate}/{description}/{url}", requestOptions);
             const data = await response.json() 
             console.log(data)
             if(!response.ok){
