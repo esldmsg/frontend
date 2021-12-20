@@ -34,7 +34,7 @@ const Login = () => {
                 `grant_type=&username=${username}&password=${password}&scope=&client_id=&client_secret=`
             ),
         };
-        const response = await fetch ("https://testingproweb.herokuapp.com/token", requestOptions);
+        const response = await fetch ("https://ecodynamicsbackend.herokuapp.com/token", requestOptions);
         const data = await response.json()
         console.log(data)
         if(!response.ok){
