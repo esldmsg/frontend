@@ -16,7 +16,7 @@ const AdminStore = () => {
 
 
     useEffect( () => {
-        fetch('https://testingproweb.herokuapp.com/allitems/?skip=0&limit=100')
+        fetch('https://ecodynamicsbackend.herokuapp.com/allitems/?skip=0&limit=100')
            .then(resp => {
                console.log(resp)
                return resp.json();
@@ -35,7 +35,7 @@ const AdminStore = () => {
                 Authorization: "Bearer " + token,
             },
         };
-        const response = await fetch ("https://testingproweb.herokuapp.com/delete/admin/" + id, requestOptions);
+        const response = await fetch ("https://ecodynamicsbackend.herokuapp.com/delete/admin/" + id, requestOptions);
         const data = await response.json()
         console.log(data.detail)
         if(!response.ok){
