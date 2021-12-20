@@ -66,7 +66,7 @@ const Admin = () => {
             }),
         }
 
-        const response = await fetch ("https://testingproweb.herokuapp.com/admin/items/", requestOptions);
+        const response = await fetch ("https://ecodynamicsbackend.herokuapp.com/admin/items/", requestOptions);
         const data = await response.json()
         console.log(data.detail)
         if(!response.ok){
