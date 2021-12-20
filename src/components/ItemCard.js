@@ -30,7 +30,7 @@ const ItemCard = (props) => {
              }),
              
         };
-        const response = await fetch ("https://testingproweb.herokuapp.com/user/item", requestOptions);
+        const response = await fetch ("https://ecodynamicsbackend.herokuapp.com/user/item", requestOptions);
         const data = await response.json()
         console.log(data)
         if(!response.ok){
