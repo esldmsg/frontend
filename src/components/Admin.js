@@ -28,7 +28,7 @@ const Admin = () => {
     }
 
     const config ={
-        bucketName:"storedev",
+        bucketName:"ecodynamics",
         dirName:"Image",
         region:"us-west-2",
         accessKeyId:process.env.REACT_APP_ACCESSKEYID,
